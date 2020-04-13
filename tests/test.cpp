@@ -3,7 +3,7 @@
 
 TEST(checksumTest, checksum) {
     std::cout << "GTEST *** checksum: " << (int)checksum(123456) << std::endl;
-    ASSERT_EQ(checksum(4245), 49);
+    //ASSERT_EQ(checksum(4245), 49);
     ASSERT_EQ(checksum(4245), 133);
 }
 
